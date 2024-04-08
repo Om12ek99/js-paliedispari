@@ -3,3 +3,14 @@ function randomNumber() {
     console.log(randomNumb, "numero casuale");
     return randomNumb;
 }
+
+function PoDFunc (PodNumb) {
+    let Podtext = "";
+    if (PodNumb % 2 === 0) {
+        Podtext = "pari";
+    } else {
+        Podtext = "dispari"
+    }
+    console.log("il numero è", Podtext);
+    return Podtext;
+}
