@@ -9,3 +9,13 @@ const randomNumb = randomNumber();                                    //funzione
 
 const result = randomNumb + userNumb;
 console.log(result, "somma numeri");
+
+
+const PoD = PoDFunc(result);                                        //funzione pari o dipari
+
+// ciclo if per la vittoria
+if (userNumbPod === PoD) {
+    console.log("hai vinto");
+} else {
+    console.log("hai perso");
+}
